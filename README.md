@@ -82,6 +82,43 @@ CREATE TABLE my_team_ois (
     gpa DECIMAL(3,2)
 );
 ```
+Records which can be directly inserted in the database :
+
+```sql
+INSERT INTO my_team_ois
+(name, age, gender, course, year, email, phone, address, gpa)
+
+VALUES
+('Aarav Sharma', 20, 'Male', 'CSE', 2, 'aarav@gmail.com', '9876543210', 'Nagpur', 8.45),
+
+('Priya Verma', 21, 'Female', 'IT', 3, 'priya@gmail.com', '9876543211', 'Pune', 9.10),
+
+('Rahul Patil', 22, 'Male', 'ENTC', 4, 'rahul@gmail.com', '9876543212', 'Mumbai', 7.85),
+
+('Sneha Joshi', 20, 'Female', 'CSE', 2, 'sneha@gmail.com', '9876543213', 'Nashik', 8.90),
+
+('Kunal Mehta', 23, 'Male', 'MECH', 4, 'kunal@gmail.com', '9876543214', 'Delhi', 7.20),
+
+('Ananya Kulkarni', 21, 'Female', 'AIDS', 3, 'ananya@gmail.com', '9876543215', 'Nagpur', 9.25),
+
+('Rohit Deshmukh', 22, 'Male', 'CIVIL', 4, 'rohit@gmail.com', '9876543216', 'Amravati', 6.95),
+
+('Pooja Singh', 19, 'Female', 'CSE', 1, 'pooja@gmail.com', '9876543217', 'Indore', 8.75),
+
+('Aditya Rao', 20, 'Male', 'ECE', 2, 'aditya@gmail.com', '9876543218', 'Hyderabad', 7.60),
+
+('Neha Kapoor', 21, 'Female', 'IT', 3, 'neha@gmail.com', '9876543219', 'Bhopal', 8.30),
+
+('Yash Thakur', 22, 'Male', 'CSE', 4, 'yash@gmail.com', '9876543220', 'Nagpur', 9.40),
+
+('Isha Jain', 20, 'Female', 'AIML', 2, 'isha@gmail.com', '9876543221', 'Jaipur', 8.05),
+
+('Vikas Nair', 23, 'Male', 'MECH', 4, 'vikas@gmail.com', '9876543222', 'Chennai', 7.50),
+
+('Ritika Sen', 19, 'Female', 'CSE', 1, 'ritika@gmail.com', '9876543223', 'Kolkata', 9.00),
+
+('Arjun Malhotra', 21, 'Male', 'IT', 3, 'arjun@gmail.com', '9876543224', 'Surat', 8.15);
+```
 
 ## How to Run the Project
 
